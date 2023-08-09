@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: postgres-db-0
-        image: docker.afiniti.com/postgres-airo:latest
+        image: docker.afiniti.com/postgres:12.4
         ports:
         - containerPort: 5432
         env:
