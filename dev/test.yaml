@@ -10,5 +10,5 @@ spec:
     image: centos
     imagePullPolicy: IfNotPresent
     command: ["/bin/sh"]
-    args: ["-c", "while true; do echo hello Ahsan; sleep 100;done"]
+    args: ["-c", "while true; do echo Ahsan; sleep 100;done"]
   restartPolicy: OnFailure
