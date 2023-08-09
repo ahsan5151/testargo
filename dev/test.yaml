@@ -7,8 +7,8 @@ metadata:
 spec:
   containers:
   - name: command-demo
-    image: centos
+    image: alpine
     imagePullPolicy: IfNotPresent
     command: ["/bin/sh"]
-    args: ["-c", "while true; do echo Ahsan; sleep 100;done"]
+    args: ["-c", "while true; do echo Ahsan; sleep 10;done"]
   restartPolicy: OnFailure
