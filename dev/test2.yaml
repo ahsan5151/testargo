@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: postgres-db-0
-        image: docker.afiniti.com/postgres
+        image: postgres
         ports:
         - containerPort: 5432
         env:
@@ -25,4 +25,4 @@ spec:
          - name: POSTGRES_PASSWORD
            value: nopassword
          - name: POSTGRES_MULTIPLE_DATABASES
-           value: test.test1
+           value: test,test1
